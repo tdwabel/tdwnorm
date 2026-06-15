@@ -12,13 +12,6 @@ pip install https://github.com/tdwabel/tdwnorm/releases/download/v1.0.0/tdwnorm-
 from tdwnorm import cdf
 print(cdf(-15))  # 输出 3.67096619931275e-51
 
-## 对比 Excel
-
-| x 值 | Excel `NORM.S.DIST` | **tdwnorm** |
-|------|--------------------|--------------|
-| -15  | 0（完全失效）      | 3.670966e-51 ✅ |
-| -37  | 0（错误）          | 5.725571e-300✅ |
-
 ## 赞助支持
 
 本库永久免费，如果对你有帮助，欢迎微信扫码赞助。  
