@@ -6,6 +6,7 @@ Excel 的在 x=0.1时返回0.539827837277029,我这个库返回的也是0.539827
 pip install https://github.com/tdwabel/tdwnorm/releases/download/v1.0.0/tdwnorm-1.0.0-py3-none-any.whl
 ## 使用
 import tdwnorm
+
 print(tdwnorm.cdf(-37))  # 输出 5.725571222524576e-300  (excel的结果:5.72557122252458E-300,一致)
 
 ## 赞助支持
