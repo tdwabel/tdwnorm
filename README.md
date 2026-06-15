@@ -5,7 +5,7 @@ Excel 的 `NORM.S.DIST` 在 x=-15 时返回 0，而这个库返回真实的 **3.
 
 ## 安装
 
-pip install https://github.com/tdwabel/tdwnorm/releases/download/v1.0.0/tdwnorm-1.0.0-cp314-none-win_amd64.whl
+pip install https://github.com/tdwabel/tdwnorm/releases/download/v1.0.0/tdwnorm-1.0.0-py3-none-any.whl
 
 ## 使用
 
